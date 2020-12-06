@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "javaType": "com.raj.nola.types.Customer",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "object",
+      "$ref": "Address.json"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "javaType": "com.raj.nola.types.Address",
+  "properties": {
+    "streetAddress": {"type": "string"},
+    "city": {"type": "string"},
+    "state": {"type": "string"},
+    "country": {"type": "string"},
+    "zipCode": {"type": "integer"},
+    "contactNumber": {"type": "long"}
+  }
+}
